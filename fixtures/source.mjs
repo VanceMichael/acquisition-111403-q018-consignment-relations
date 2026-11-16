@@ -112,6 +112,22 @@ export const phases={
       "query": {},
       "headers": {}
     }
+  ],
+  "reload": [
+    {
+      "path": "/loads/c1",
+      "body": {
+        "leg": "L1",
+        "cargoId": "c1",
+        "container": "box2",
+        "packages": 10,
+        "version": 2
+      },
+      "method": "GET",
+      "status": 200,
+      "query": {},
+      "headers": {}
+    }
   ]
 };
 export const portalKind="";
